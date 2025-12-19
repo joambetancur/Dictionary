@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: #0f172a;
+    color: #f8fafc;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+.card {
+    width: 90%;
+    max-width: 31.25rem;
+    margin: 2rem auto;
+    background: #1e293b;
+    border-radius: 0.9375rem;
+    padding: 2.5rem 2rem;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.property {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.property span:first-child {
+    font-weight: 700;
+    color: #38bdf8;
+    margin-right: 0.6250rem;
+    min-width: 6.25rem;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: 10vh;
+    background: #1e293b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0.9375rem;
+    transition: border-color 0.3s ease;
+}
+
+.search-form input,
+.search-form button {
+    color: #EAEAEA;
+    flex-basis: 70%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.search-form:focus-within {
+    border-bottom: 2px solid #EAEAEA;
+    box-shadow: 0px 4px 10px rgba(30, 144, 255, 0.2);
+}
+
+.search-form button {
+    flex-basis: 30%;
+    cursor: pointer;
+    border-left: 2px solid #545454;
+    border-radius: 0.9375rem;
+}
+
+.search-form button span {
+    font-size: 1.5rem;
+    color: #EAEAEA;
+}
+
+.search-form button:hover {
+    background: #EAEAEA;
+    color: black;
+}
+
+.result {
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .search-form {
+        width: 90vw;
+    }
+}
