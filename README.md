@@ -21,4 +21,4 @@ Durante el desarrollo de este proyecto, fortalecí mis conocimientos en:
 2.  **Manipulación del DOM:** Actualización dinámica de la interfaz y creación de elementos (como etiquetas `<audio>`) según la disponibilidad de los datos.
 3.  **Experiencia de Usuario (UX):** Implementación de mensajes de error y textos alternativos cuando la API no devuelve ciertos datos (como audios o ejemplos).
 
-### Para ver el proyecto:
+### Para ver el proyecto: https://heartfelt-brigadeiros-47401c.netlify.app/
