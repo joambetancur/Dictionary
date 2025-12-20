@@ -53,7 +53,7 @@ function renderResult(data) {
 }
 
 searchForm.addEventListener('submit', (e) => {
-    e.preventDefault(); // Evita que la página se recargue
+    e.preventDefault(); 
     searchWord(input.value.trim());
 });
 
@@ -61,4 +61,5 @@ input.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         searchWord(input.value.trim());
     }
+
 });
