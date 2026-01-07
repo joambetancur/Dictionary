@@ -4,7 +4,7 @@
 
 Una aplicación de diccionario elegante y responsiva que permite a los usuarios buscar definiciones, fonética, categorías gramaticales e incluso escuchar la pronunciación en audio en tiempo real.
 
-Pantalla Principal: <img width="344" height="364" alt="App" src="https://github.com/user-attachments/assets/1fefc5dd-08ac-4665-81f4-a871d8e40885" />
+## Pantalla Principal: <br> <img width="344" height="364" alt="App" src="https://github.com/user-attachments/assets/1fefc5dd-08ac-4665-81f4-a871d8e40885" />
 
 ## ✨ Características
 * **Búsqueda en Tiempo Real:** Obtiene datos instantáneamente desde la API pública Free Dictionary.
